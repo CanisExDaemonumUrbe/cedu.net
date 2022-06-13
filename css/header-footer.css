@@ -1,0 +1,26 @@
+header{
+    display: grid;
+    background-color: rgb(32, 33, 36);
+    justify-content: center;
+    height: 25px;
+    padding: 10px;
+}
+
+.header_lable {
+    color: aliceblue;
+    font: 20px sans-serif;
+}
+
+footer{
+    display: grid;
+    background-color: rgb(32, 33, 36);
+    justify-content: right;
+    align-items: center;
+    height: 25px;
+    padding: 10px;
+}
+
+.footer_lable {
+    color: aliceblue;
+    font: 12px sans-serif;
+}

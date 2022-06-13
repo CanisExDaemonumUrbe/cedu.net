@@ -1,0 +1,52 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+}
+
+.content-wrapper{
+    grid-column: 2 / 3;
+    justify-items: center;
+    padding: 15px 40px 15px 40px;
+    border: 2px double black;
+    background-color: azure;
+    border-radius: 25px;
+    background-image: url(../img/background_1.jpg);
+}
+
+.register_form-wrapper{
+    display: grid;
+    justify-items: center;
+}
+
+/* .register_form-lable{
+    text-align: center;
+    font: 35px sans-sarif;
+    color: azure;
+} */
+
+.register_form{
+    display: grid;
+    /* grid-template-rows: repeat(7, max-content); */
+    justify-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(93, 45, 93);
+    
+}
+
+.button_wrapper{
+    text-align: center;
+}
+
+.register_button{
+    height: 32px;
+}
+
+.register_form-link{
+    text-align: center;
+    font: 15px sans-serif;
+    color: azure;
+}

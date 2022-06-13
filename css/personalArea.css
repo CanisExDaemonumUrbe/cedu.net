@@ -1,0 +1,44 @@
+.content-wrapper{
+    display: grid;
+    justify-items: center
+}
+
+.content{
+    padding: 15px 40px 15px 40px;
+    border: 2px double black;
+    background-color: azure;
+    border-radius: 25px;
+    background-image: url(../img/background_1.jpg);
+}
+
+
+.content_main-lable{
+    font-size: 20px;
+    color: azure;
+    margin: 25px 10px 25px 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.content_change-form{
+    display: grid;
+    grid-template-rows: max-content max-content max-content max-content;
+    border: 2px double black;
+    border-radius: 25px;
+    background-color: rgb(93, 45, 93);
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+}
+
+.form_button-wrapper{
+    display: grid;
+    justify-items: center;
+}
+
+.pa_button{
+    min-height: 35px;
+}
+
+.menubar{
+    display: grid;
+    justify-items: center;
+}

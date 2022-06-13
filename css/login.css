@@ -1,0 +1,47 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+}
+
+.content-wrapper{
+    grid-column: 2 / 3;
+    justify-items: center;
+    padding: 15px 40px 15px 40px;
+    border: 2px double black;
+    background-color: azure;
+    border-radius: 25px;
+    background-image: url(../img/background_1.jpg);
+}
+
+.login_form-lable{
+    text-align: center;
+    font: 35px sans-serif;
+    color: azure;
+}
+
+.login_form{
+    display: grid;
+    /* grid-template-rows: max-content max-content max-content; */
+    justify-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgb(93, 45, 93);
+    
+}
+
+.button_wrapper{
+    text-align: center;
+}
+
+.login_button{
+    height: 32px;
+}
+
+.login_form-link{
+    text-align: center;
+    font: 15px sans-serif;
+    color: azure;
+}
